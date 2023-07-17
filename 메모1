@@ -1,4 +1,5 @@
 0717 4일차 수업 
+https://blog.naver.com/sonyuyoung/223158403667
 
 ​velog - > drv98 -> css 소개 
 
@@ -171,5 +172,72 @@ span -> 내용물 만큼의 길이를 가지고 있음
 **display: block; 로 바꾸어주면 크기적용이됨 !!!!!
 
 **display: inline-block; --- 한줄에 적용가능 한칸에 다중 
+
+
+﻿
+인라인 태그 예시
+
+<span><strong><small><em><a><b><q>
+
+<abbr><acronym><ins><del><sup><sub><img><textarea>
+
+
+블록 태그 예시
+
+<h1>~<h6><div><ul><ol><li>
+
+<dl><dt><dd><blockquote>
+
+<address><table><video><form>
+
+<figure><figcaption>
+
+<header><nav><section>
+
+<article><aside><footer>
+
+
+<float 속성>
+
+
+
+대표사진 삭제
+사진 설명을 입력하세요.
+
+float 속성은 웹 페이지의 레이아웃(layout) 사용
+
+https://developer.mozilla.org/ko/docs/Web/CSS/float
+
+
+참고 코드.
+
+양쪽여백자동으로줌 예시)
+
+max-width: 940px;
+
+margin-left: auto;
+
+margin-right: auto;
+
+
+float 속성+fix
+
+
+**아래 영역이 딸려올라가지않게
+
+픽스되는 라인만들어주기
+
+
+설명 : float을 해주고 싶은 ( 양쪽나란하게) 섹션을
+
+div 태그로 전체를 묶어준다
+
+그러고나면 아래 소속되어있지않은 footer 영역까지
+
+float 설정이 되는데 그걸 막아주기위해서 임의로
+
+div 태그를만들어 고정시켜준다
+
+﻿
 
 ​
